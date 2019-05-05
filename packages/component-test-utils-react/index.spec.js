@@ -1,5 +1,11 @@
-describe('component-test-utils-react', () => {
-  it('should export by default an object with all methods', () => {});
+import reactUtils, {shallow} from './index';
 
-  it('should export shallow method directly', () => {});
+describe('component-test-utils-react', () => {
+  it('should export by default an object with all methods', () => {
+    expect(typeof reactUtils.shallow === 'function').toBeTruthy();
+  });
+
+  it('should export shallow method directly', () => {
+    expect(typeof shallow === 'function').toBeTruthy();
+  });
 });
