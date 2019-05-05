@@ -24,7 +24,7 @@
         "title": "Getting Started"
       },
       "philosophy": {
-        "title": "Philosophy about component testing"
+        "title": "How to test component ?"
       },
       "shallow/constructor": {
         "title": "shallow/constructor"
@@ -40,6 +40,9 @@
       },
       "shallow/setProps": {
         "title": "shallow/setProps"
+      },
+      "shallow/unmount": {
+        "title": "shallow/unmount"
       }
     },
     "links": {
